@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-node-html-foodninja",
+  "version": "1.0.0",
+  "description": "This is my first HTML with Tailwinds",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch"
+  },
+  "author": "Tangguh D Pramono",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.17"
+  }
+}
